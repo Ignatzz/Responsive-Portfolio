@@ -1,0 +1,332 @@
+
+body{
+    background-color:#e6e6e6;
+    overflow:auto;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+header{
+    margin: auto;
+    background-color:white;
+    margin-bottom: 25px;
+}
+
+h1, h2, {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    
+}
+
+h1 {
+    background-color:#4aaaa5;
+    font-size: 24px;
+    color:white;
+    display: inline-block;
+    height: 55px;
+    width:220px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h2{
+    clear: both;
+    color:#4aaaa5;
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    padding-bottom:25px;
+}
+
+
+img{
+    width: 220px;
+}
+
+
+
+h4{
+    background-color:#4aaaa5;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    height: 38px;
+    padding-top: 14px;
+    z-index: 1;
+    margin: 0;
+    position: relative;
+    top: -67px;
+    width: 220px;
+
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+li {
+    display: inline;
+}
+
+a {
+color:#777777;
+text-decoration: none;
+font-size:16;
+}
+
+.wrapper{
+    width:960px;
+    margin:0 auto;
+}
+
+#about{
+    padding-right:20px;
+}
+
+#portfolio{
+    padding-right: 20px;
+}
+
+
+
+
+#mainsection{
+    color: #777777;
+    background-color: #ffffff;
+    float: left;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    clear:both;
+    padding:22px;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 960px;
+}
+
+#martguitar{
+    width: 184px;
+    padding-right: 15px;
+    float: left;
+}
+
+#parapic{
+    border-top-style: solid;
+    border-top-color: #dddddd;
+    color: #777777;
+    background-color: #ffffff;
+    margin-left: 15px;
+    float: left;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+footer{
+    
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color:#4aaaa5;
+    clear: both;
+    background-color:#666666;
+    width: 100%;
+    Height: 30px;
+    font-size:12px;
+    text-align: center;
+    padding-top: 8px;
+    color:#999999;
+    margin-top:30px;
+}
+
+label{
+    display:block;
+    font-size:18px;
+}
+
+input, textarea  {
+    width: 100%;
+    display:block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #cccccc:
+    padding: 10px;
+}
+
+textarea {
+    height: 240px;
+}
+
+#contactsection{
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: #dddddd;
+    color: #777777;
+    background-color: #ffffff;
+    float: left;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    clear:both;
+    padding:22px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#submitbutton{
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 80px;
+}
+
+
+.portfolioitem{
+    position: relative;
+    margin-bottom: 20px;
+    width: 26%;
+}
+
+#port1{
+    float:left;
+}
+
+#port2{
+    float:right;
+    margin-right:45%;
+}
+
+#port3{
+    float:left;
+}
+
+#port4{
+    float:right;
+    margin-right:45%;
+}
+
+#port5{
+    float:left;
+}
+
+@media screen and (max-width: 980px) {
+	
+  h1 {
+      margin-left: 40px;
+  }
+
+  nav {
+    margin-right: 40px;
+  }
+
+  #mainsection {
+    margin-left: 40px;
+    max-width: 550px;
+  }
+
+  #contactsection {
+      margin-left:40px;
+      max-width:550px;
+  }
+
+  #port2 {
+      margin-left: 100px;
+      float: right;
+      margin-right:80px;
+  }
+
+  #port4 {
+    margin-left: 100px;
+    float: right;
+    margin-right:80px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    h1 {
+    margin-left: 20px;
+  }
+
+  #mainsection {
+    clear: both;
+    max-width: 647px;
+    margin-left: 20px;
+  }
+
+  #contactsection {
+      max-width: 647px;
+      margin-left: 20px;
+  }
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+        clear: both;
+        width:100%;
+        margin: 0px;
+     
+    }    
+
+    nav {
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+        margin-bottom: 20px;
+        clear: both;
+    }
+
+    #mainsection {
+        max-width: 540px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    #contactsection {
+        max-width: 540px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+    #martguitar {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    img {
+        width: 540px;
+    }
+
+    h4 {
+        width: 540px;
+    }
+
+    .portfolioitem {
+        clear: both;
+        margin: 0;
+    }
+    
+    #port2 {
+        float: left;
+        clear: both;
+        margin: 0;
+    }
+
+    #port4 {
+        float: left;
+        margin: 0;
+    }
